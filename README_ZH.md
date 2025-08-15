@@ -1,5 +1,9 @@
 # AI小说家 - 智能内容生成系统
 
+[![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![Version](https://img.shields.io/badge/version-1.0.0-orange.svg)](VERSION)
+
 ## 项目简介
 
 AI小说家是一个基于大语言模型的智能内容生成系统，能够根据用户提供的主题自动生成小说或课程内容。该系统具有完整的Web界面，支持任务队列管理、断点续传、内容预览等功能。
@@ -173,17 +177,17 @@ Please open your browser to http://127.0.0.1:5000
 
 ## 💖 支持作者
 
+如果你觉得这个项目对你有帮助，欢迎通过下方二维码赞赏支持作者的持续开发！
 
+![赞赏码](dashang.png)
 
-如果你觉得这个项目对你有帮助，欢迎通过下方二维码赞赏支持作者的持续开发！、
+## ⚠️ 免责声明
 
-![image-20250815113847479](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250815113847479.png)
-
-⚠️ 免责声明
 本软件仅供学习和研究使用。使用者需要：
 
-遵守相关法律法规
-尊重知识产权
-不得用于商业用途
-对使用本软件产生的任何后果自行承担责任
+- 遵守相关法律法规
+- 尊重知识产权
+- 不得用于商业用途
+- 对使用本软件产生的任何后果自行承担责任
+
 ⭐ 如果这个项目对你有帮助，请给个Star支持一下！ 💡 有商业化想法？欢迎交流合作，共同探索AI写作的无限可能！
