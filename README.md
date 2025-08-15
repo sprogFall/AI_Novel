@@ -99,6 +99,17 @@ Please open your browser to http://127.0.0.1:5000
 1. **Create Project**:
    - Enter topic content
    - Select project type (novel/course)
+
+### Screenshots
+
+![Screenshot 1](img/1.png)
+![Screenshot 2](img/2.png)
+![Screenshot 3](img/3.png)
+![Screenshot 4](img/4.png)
+![Screenshot 5](img/5.png)
+![Screenshot 6](img/6.png)
+![Screenshot 7](img/7.png)
+![Screenshot 8](img/8.png)
    - Set structure parameters (number of chapters, word count, etc.)
    - Generate and confirm outline
 
@@ -320,7 +331,7 @@ Please open your browser to http://127.0.0.1:5000
 
 如果你觉得这个项目对你有帮助，欢迎通过下方二维码赞赏支持作者的持续开发！
 
-![赞赏码](dashang.png)
+![赞赏码](img/dashang.png)
 
 ## ⚠️ 免责声明
 
