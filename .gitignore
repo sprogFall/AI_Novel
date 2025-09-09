@@ -129,3 +129,5 @@ Thumbs.db
 # Project specific
 works_library/
 token_stats.json
+
+config.json

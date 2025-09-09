@@ -17,24 +17,15 @@ from docx import Document
 from bs4 import BeautifulSoup
 
 # --- LLM API Configuration ---
-# 请根据你的环境配置这些设置
-<<<<<<< Updated upstream
-VLLM_SERVER_HOST = ""
-VLLM_SERVER_PORT = ""
-OPENAI_API_ENDPOINT_PATH = "/v1/chat/completions"
-TARGET_API_URL = f"http://{VLLM_SERVER_HOST}:{VLLM_SERVER_PORT}{OPENAI_API_ENDPOINT_PATH}"
-SERVED_MODEL_IDENTIFIER = ''
-=======
-VLLM_SERVER_HOST = "ip"
-VLLM_SERVER_PORT = "port"
-OPENAI_API_ENDPOINT_PATH = "/v1/chat/completions"
-TARGET_API_URL = f"http://{VLLM_SERVER_HOST}:{VLLM_SERVER_PORT}{OPENAI_API_ENDPOINT_PATH}"
-SERVED_MODEL_IDENTIFIER = 'models'
->>>>>>> Stashed changes
-API_HEADERS = {
-    "Content-Type": "application/json",
-    # "Authorization": "Bearer YOUR_API_KEY" # 如果需要，请添加你的API密钥
-}
+# 从config.json文件读取配置
+with open('config.json', 'r', encoding='utf-8') as f:
+    config = json.load(f)
+
+VLLM_SERVER_HOST = config["VLLM_SERVER_HOST"]
+OPENAI_API_ENDPOINT_PATH = config["OPENAI_API_ENDPOINT_PATH"]
+TARGET_API_URL = config["TARGET_API_URL"]
+SERVED_MODEL_IDENTIFIER = config["SERVED_MODEL_IDENTIFIER"]
+API_HEADERS = config["API_HEADERS"]
 
 # --- 所有生成作品的基础目录 ---
 WORKS_LIBRARY_PATH = "works_library"
